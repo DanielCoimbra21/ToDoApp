@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-color: burlywood;
 }
 
 .app-name {
@@ -21,9 +22,6 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-
-    // Override Automatic Minimum Size
-    // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
     min-width: 0;
     min-height: 0;
 
@@ -51,7 +49,7 @@
                 display: flex;
                 flex-direction: column;
                 flex-grow: 1;
-                flex-basis: 0; // to force the columns to all be the same size, regardless of content
+                flex-basis: 0;
 
                 min-width: 300px;
                 margin: 50px;
